@@ -3,7 +3,7 @@
 #portfolio{
     width: 80vw;
     margin-left: 20vw;
-    background-color: $light-pink;
+    
     padding-top: 5%;
 
     .portfolio-card-container{
@@ -12,23 +12,5 @@
         justify-content: center;
         padding-bottom: 5%;
     }
-
-    .portfolio-title{
-        margin: 0 auto;
-        width: 30vw;
-        background-color: $light-grey;
-        text-align: center;
-        padding:10%;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
-
-    .portfolio-title h1{
-        color: $dark;
-        font-family: 'Amatic SC', cursive;
-        font-size: 6rem;
-        text-decoration: underline;
-    }
-
-
 }
 

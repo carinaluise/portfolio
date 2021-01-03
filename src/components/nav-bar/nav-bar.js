@@ -8,7 +8,7 @@ const NavBar = () => {
 
 return (
     <div class="nav-container">
-        <img id="logo" src="../../../computer-icon.svg" alt="icon"></img>
+        <a href="/#home"><img id="logo" src="../../../computer-icon.svg" alt="icon"></img></a>
         <div class="nav-links-container">
             <NavLink link="/#home" linkName="home"></NavLink>
             <NavLink link="/#portfolio" linkName="portfolio"></NavLink>

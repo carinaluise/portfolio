@@ -5,7 +5,7 @@ import Card from '../card/card.js'
 
 const Portfolio = () => {
     return(<div id="portfolio">
-    <div class="portfolio-title"><h1>Projects</h1></div>
+    <div class="section-title"><h1>Projects</h1></div>
     <div class="portfolio-card-container">
         <Card 
         title="Green for growth"
